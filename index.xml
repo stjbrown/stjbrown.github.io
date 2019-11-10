@@ -17,7 +17,7 @@
       <pubDate>Sun, 10 Nov 2019 10:29:39 -0500</pubDate>
       
       <guid>https://stjbrown.github.io/contact/contact/</guid>
-      <description> Send   Your email:   Your file:  Send  </description>
+      <description>Send   Your email:   Your file:  Send  Email: Message: Submit   window.addEventListener(&#34;DOMContentLoaded&#34;, function() { // get the form elements defined in your form HTML above var form = document.getElementById(&#34;my-form&#34;); var button = document.getElementById(&#34;my-form-button&#34;); var status = document.getElementById(&#34;my-form-status&#34;); // Success and Error functions for after the form is submitted function success() { form.reset(); button.style = &#34;display: none &#34;; status.innerHTML = &#34;Thanks!&#34;; } function error() { status.</description>
     </item>
     
   </channel>
