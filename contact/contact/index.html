@@ -10,11 +10,13 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Contact"/>
-<meta name="twitter:description" content="New Contact"/>
+<meta name="twitter:title" content="Contact Form"/>
+<meta name="twitter:description" content="#Please contact me via this form&hellip;
+ Name: labe  email:   Your message:   Send  "/>
 
-    <meta property="og:title" content="Contact" />
-<meta property="og:description" content="New Contact" />
+    <meta property="og:title" content="Contact Form" />
+<meta property="og:description" content="#Please contact me via this form&hellip;
+ Name: labe  email:   Your message:   Send  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://stjbrown.github.io/contact/contact/" />
 <meta property="article:published_time" content="2019-11-10T10:29:39-05:00" />
@@ -25,7 +27,7 @@
       <base href="https://stjbrown.github.io/contact/contact/">
     
     <title>
-  Contact · Stephen Brown
+  Contact Form · Stephen Brown
 </title>
 
     
@@ -96,10 +98,29 @@
   <section class="container page">
   <article>
     <header>
-      <h1>Contact</h1>
+      <h1>Contact Form</h1>
     </header>
 
-    <p>New Contact</p>
+    <p>#Please contact me via this form&hellip;</p>
+
+<form action="https://formspree.io/mjvvgdge" method="POST" >
+  <label>
+    Name:
+    <input type="text" name="_fullname">
+  </label>labe> 
+  <label>
+    email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 
   </article>
 </section>
